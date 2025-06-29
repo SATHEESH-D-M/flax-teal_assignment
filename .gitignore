@@ -21,7 +21,7 @@ target
 #.idea/
 
 # Python project files
-src_py/solution.csv
+src_py/src/solution.csv
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
