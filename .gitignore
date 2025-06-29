@@ -20,6 +20,10 @@ target
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-commits.txt
+# Python project files
 src_py/solution.csv
 src_py/__pycache__/ 
+
+# system files
+.DS_Store
+commits.txt
