@@ -21,3 +21,5 @@ target
 #.idea/
 
 commits.txt
+src_py/solution.csv
+src_py/__pycache__/ 
