@@ -23,6 +23,8 @@ target
 # Python project files
 src_py/solution.csv
 src_py/__pycache__/ 
+src_py/tests/__pycache__/
+src_py/src/__pycache__/
 
 # system files
 .DS_Store
