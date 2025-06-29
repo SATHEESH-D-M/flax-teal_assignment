@@ -22,9 +22,13 @@ target
 
 # Python project files
 src_py/solution.csv
-src_py/__pycache__/ 
-src_py/tests/__pycache__/
-src_py/src/__pycache__/
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Recursively ignore all __pycache__ directories
+**/__pycache__/
+**/.pytest_cache/
 
 # system files
 .DS_Store
