@@ -1,2 +1,3 @@
-f4a9acc - SATHEESH-D-M, Sun Jun 29 20:24:45 2025 +0530 : initial solution in ipynb file
-31e1607 - SATHEESH-D-M, Sun Jun 29 19:46:45 2025 +0530 : Initial commit
+5c31c86 - SATHEESH-D-M, Sun Jun 29 21:54:01 2025 +0530 ::  Modularising attempt into src_py: 	- created: config.ini, utils.py, main.py 	- moved : IVP_Euler_Solver.ipynb into src_py
+f4a9acc - SATHEESH-D-M, Sun Jun 29 20:24:45 2025 +0530 ::  initial solution in ipynb file
+31e1607 - SATHEESH-D-M, Sun Jun 29 19:46:45 2025 +0530 ::  Initial commit
