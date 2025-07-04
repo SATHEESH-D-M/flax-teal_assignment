@@ -1,3 +1,31 @@
-5c31c86 - SATHEESH-D-M, Sun Jun 29 21:54:01 2025 +0530 ::  Modularising attempt into src_py: 	- created: config.ini, utils.py, main.py 	- moved : IVP_Euler_Solver.ipynb into src_py
-f4a9acc - SATHEESH-D-M, Sun Jun 29 20:24:45 2025 +0530 ::  initial solution in ipynb file
-31e1607 - SATHEESH-D-M, Sun Jun 29 19:46:45 2025 +0530 ::  Initial commit
+cba056c | SATHEESH-D-M | 2025-07-04 | F&T internship selection exercise
+f2c184a | SATHEESH-D-M | 2025-07-04 | added .gitignore in rust_code
+9a0bc8f | SATHEESH-D-M | 2025-07-04 | removed .gitignore after move
+f59c574 | SATHEESH-D-M | 2025-07-04 | removed src/py after moving into python_code
+4eb7a90 | SATHEESH-D-M | 2025-07-04 | env files added
+98819c3 | SATHEESH-D-M | 2025-07-04 | re organised the python code folder
+1091395 | SATHEESH-D-M | 2025-07-04 | moved all py codes into python_code folder
+2a1bda6 | SATHEESH-D-M | 2025-07-04 | sample solution csv o/p file
+ff40883 | SATHEESH-D-M | 2025-07-04 | main.rs binary crate in source code
+a6d2d64 | SATHEESH-D-M | 2025-07-04 | library crate source code
+b89b165 | SATHEESH-D-M | 2025-07-04 | accepts user inputs in config.ini
+80e9f4c | SATHEESH-D-M | 2025-07-04 | rust cargo created
+a616280 | SATHEESH-D-M | 2025-06-30 | error plot added
+829e8ac | SATHEESH-D-M | 2025-06-30 | src_py/src/solutions.csv added
+df0f220 | SATHEESH-D-M | 2025-06-30 | report plots nb
+9e32973 | SATHEESH-D-M | 2025-06-30 | moved all .ipynb files into src_py/jupyter_nbooks
+e19367b | SATHEESH-D-M | 2025-06-30 | Stop tracking __pycache__ folders and update .gitignore
+46ae491 | SATHEESH-D-M | 2025-06-30 | Stop tracking __pycache__ folders and update .gitignore
+3e56630 | SATHEESH-D-M | 2025-06-30 | removed the copy from src_py
+0277a32 | SATHEESH-D-M | 2025-06-30 | reorganised src_py into 2 subfolders (src_py/src, src_py/tests)
+c8f4fc3 | SATHEESH-D-M | 2025-06-29 | Delete .DS_Store
+ea6f0a8 | SATHEESH-D-M | 2025-06-29 | .DS_Store added to .gitignore
+625ec5e | SATHEESH-D-M | 2025-06-29 | bug fixed in src_py/config.ini
+f863e83 | SATHEESH-D-M | 2025-06-29 | src/__pycache__/  and src_py/solution.csv added to .gitignore
+87a70fb | SATHEESH-D-M | 2025-06-29 | main.py collects user parametrs from config.ini and solves the ODE
+ec0250d | SATHEESH-D-M | 2025-06-29 | renamed src_py/utils.py -> solvers.py
+74d5a8d | SATHEESH-D-M | 2025-06-29 | combined all helper functions into Euler1D_Solve class
+84a9548 | SATHEESH-D-M | 2025-06-29 | parameters defined in config.ini file
+5c31c86 | SATHEESH-D-M | 2025-06-29 | Modularising attempt into src_py: 	- created: config.ini, utils.py, main.py 	- moved : IVP_Euler_Solver.ipynb into src_py
+f4a9acc | SATHEESH-D-M | 2025-06-29 | initial solution in ipynb file
+31e1607 | SATHEESH-D-M | 2025-06-29 | Initial commit
