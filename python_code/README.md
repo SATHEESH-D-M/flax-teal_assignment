@@ -1,5 +1,6 @@
 # Euler solver - IVP in python
-
+---
+---
 ### Project Structure
 
 ```bash
@@ -21,7 +22,8 @@ python_code
     ├── __init__.py
     └── test_solvers.py     # tested the code logic
 ```
-
+---
+---
 # Implementation
 
 - Step - 1 : Clone this repository.
@@ -59,13 +61,16 @@ expression = np.cos(t) - y
 ```bash
 python src/main.py
 ```
-
+---
+---
 ### Tests
 
 - pytest is available at ```./tests```
 
 - API from the ```./src/solvers.py``` are tested.
 
+---
+---
 ### API from ```./src/solvers.py```
 `Euler1D_Solve`
 
