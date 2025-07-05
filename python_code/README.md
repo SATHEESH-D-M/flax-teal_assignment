@@ -59,6 +59,7 @@ expression = np.cos(t) - y
 
 - Step - 5 : From the folder ```python_code```. execute the following in terminal.
 ```bash
+cd python_code
 python src/main.py
 ```
 ---
