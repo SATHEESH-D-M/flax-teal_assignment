@@ -78,7 +78,7 @@ A Python class to solve 1D first-order ODE initial value problems using the **Eu
 
 
 
-##### `Euler1D_Solve(f, t_start, t_end, y_0, num_steps)`
+### `Euler1D_Solve(f, t_start, t_end, y_0, num_steps)`
 Initializes the Euler solver.
 
 **Arguments:**
@@ -90,7 +90,7 @@ Initializes the Euler solver.
 
 
 
-##### `solve() -> np.ndarray`
+### `solve() -> np.ndarray`
 Solves the ODE using Euler's method.
 
 **Returns**:  
@@ -98,7 +98,7 @@ Solves the ODE using Euler's method.
 
 
 
-##### `create_1d_mesh() -> np.ndarray`
+### `create_1d_mesh() -> np.ndarray`
 Generates a 1D uniform mesh from `t_start` to `t_end`.
 
 **Returns**:  
@@ -106,7 +106,7 @@ Generates a 1D uniform mesh from `t_start` to `t_end`.
 
 
 
-##### `calc_step_size() -> float`
+### `calc_step_size() -> float`
 Calculates the step size `h = (t_end - t_start) / num_steps`.
 
 **Returns**:  
@@ -114,12 +114,12 @@ Calculates the step size `h = (t_end - t_start) / num_steps`.
 
 
 
-##### `plot_solution()`
+### `plot_solution()`
 Plots the numerical solution with step size `h` and `n` in the legend.
 
 
 
-##### `csv_export(filename: str)`
+### `csv_export(filename: str)`
 Exports the solution as a CSV file with columns `t` and `y(t)`.
 
 **Arguments:**
