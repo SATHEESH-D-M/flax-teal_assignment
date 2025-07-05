@@ -1,4 +1,4 @@
-# 🦀 Rust Implementation
+# Euler Solver -  IVP in Rust 
 This module implements the same Euler ODE solver as the Python version — but fully in Rust, using strong type-checking and fast performance.
 
 ---
@@ -66,7 +66,7 @@ The solution will be printed and also exported to the specified CSV file.
 
 ---
 
-## ✅ Tests
+## Tests
 
 Unit tests are defined in `src/tests.rs` and test:
 
@@ -82,7 +82,7 @@ cargo test
 
 ---
 
-## 🧩 API Summary — `EulerSolver1D`
+## API Summary — `EulerSolver1D`
 
 Main struct for solving ODEs of the form `dy/dt = f(t, y)` using Euler’s method.
 
