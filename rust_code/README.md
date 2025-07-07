@@ -8,11 +8,11 @@ This module implements the same Euler ODE solver as the Python version — but f
 rust_code/
 ├── src/
 │   ├── lib.rs          # Euler solver implementation
-│   ├── main.rs         # Main runner
-│   └── tests.rs        # Unit tests (moved if separated)
+│   └── main.rs         # Main runner
 ├── config.ini          # User input config file
-├── Cargo.toml          # Rust dependencies
-└── output.csv          # (Generated) Solution output
+├── Cargo.toml   
+├── Cargo.lock         
+└── solution.csv        
 ```
 ---
 
