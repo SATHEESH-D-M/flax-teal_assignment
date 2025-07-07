@@ -122,7 +122,6 @@ Exports the mesh and solution pair as a CSV file.
 ## Type Safety and Design Highlights
 
 - **Strong Typing**: Uses `serde` to deserialize and validate `.ini` configs at compile time.
-- **Error Handling**: Proper error propagation using `Result<T, E>` and descriptive panics.
 - **Expression Parsing**: Uses the [`meval`](https://crates.io/crates/meval) crate for safe mathematical expression evaluation.
 
 
